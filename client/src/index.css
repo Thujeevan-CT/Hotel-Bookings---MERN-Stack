@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+p {
+  font-size: 15px !important;
+}
+
+
+.navbar {
+  /* background-color: #000 !important; */
+  background: rgb(15,32,39) !important;
+  background: linear-gradient(164deg, rgba(15,32,39,1) 0%, rgba(32,58,67,1) 100%) !important; 
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+}
+
+.navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar .navbar-nav {
+  margin-left: auto !important;
+}
+
+.row .smallimg {
+  height: 200px;
+  width: 100% !important;
+  border-radius: 5px !important;
+}
+
+h1 {
+  font-size: 20px !important;
+}
+
+.row .btn {
+  color: #fff !important;
+  box-shadow: none !important;
+  border: none !important;
+  margin: 0 .3rem;
+  padding: .5rem;
+}
+
+.bs {
+  background-color: #fff;
+  box-shadow: rgba(32,58,67, 0.35) 0px 5px 15px;
+  margin-top: 20px !important;
+  border-radius: 5px !important;
+  padding: 20px !important;
+}
+
+.bigimg {
+  height: 350px;
+  width: 100%;
+  border-radius: 5px !important;
+}
+
+
+
+input,
+select,
+.ant-picker {
+  box-shadow: none !important;
+  margin-top: 10px !important;
+  border: 1px solid #203A43 !important;
+  width: 100%;
+  border-radius: 3px !important;
+  height: 35px !important;
+  /* color: #000 !important; */
+}
+
+h2 {
+  font-size: 30px !important;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold !important;
+}
+
+.dropdown-toggle {
+  border: 0px solid !important;
+}
+
+.btn-secondary {
+  background-color: transparent !important;
+}
+
+.ant-picker-input input {
+  border: none !important;
+}
+
+
+
+.landing {
+  background: linear-gradient(rgba(32,58,67, 0.3), rgba(0, 0, 0, 0.5)),
+    url("../src/images/pic\ 4.jpg") !important;
+}
+
+.register {
+  background: linear-gradient(rgba(32,58,67, 0.3), rgba(0, 0, 0, 0.5)),
+    url("../src/images/pic\ 1.jpg") !important;
+}
+
+.register .row, .login .row{
+  margin: 0 0 !important;
+}
+
+.login {
+  background: linear-gradient(rgba(32,58,67, 0.3), rgba(0, 0, 0, 0.5)),
+    url("../src/images/pic\ 2.jpg") !important;
+}
+
+.landing, .register, .login{
+  background-color: #000 !important;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  background-position: center center !important;
+  height: calc(100vh - 56.45px) !important;
+}
+
+.landing h3 {
+  color: #fff;
+  font-size: 5rem;
+  text-shadow: 2px 4px 0px rgba(0,0,0,0.4);
+}
+
+
+.btn-own {
+  color: #fff !important;
+  background-color: rgb(32,58,67) !important;
+  padding: .3rem;
+}
+
+.btn-own:hover{
+  background-color: rgb(15,32,39);
+  color: #fff;
+}
+
+.landing .btn-own{
+  margin-top: 1rem;
+  padding: .7rem;
+}
+
+.landing .cent {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+.landing h3 {
+    font-size: 3rem;
+}
+.room{
+  margin: 0 0.5rem;
+}
+.bigimg {
+  height: 200px;
+}
+}
